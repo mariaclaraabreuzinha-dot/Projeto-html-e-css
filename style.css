@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #header{
+    background-color: #008060;
+
+} */
+
+
+#logo img{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#texto h1 {
+    text-align: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;  
+    color:white;
+    font-size: 45px;
+    
+}
+
+#texto h4 {
+    text-align: center;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont,  'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color:white;
+    font-size: 26px;
+    margin-top: 11px;
+}
+
+#butao {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;              
+    margin: 24px auto 0;
+}
+
+#butao input {
+    width: 275px;  
+    padding: 12px 18px;  
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #dddedf;
+    border-radius: 3px;
+    outline: none;
+}
+
+#butao button {
+    padding: 12px 18px;  
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #212326;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#texto h6 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 50;
+    color:rgba(255, 255, 255, 0.685);
+    font-size: 12px;
+    margin-top: 19px;
+}
+
+ #header {
+    background-color: #008060;
+    position: relative; 
+    overflow: visible; 
+    padding-bottom: 0; 
+}
+
+#loja {
+    position: relative;
+    z-index: 5; 
+    margin-bottom: -250px; 
+}
+
+#loja img {
+    
+    width: 290px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#onda {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    line-height: 0;
+}
+
+#onda svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
