@@ -216,23 +216,5 @@
   margin:auto;
 }
 
-.accordion-button{
-  font-size:14px;
-  padding:10px 14px;
-}
 
-.accordion-body{
-  font-size:13px;
-}
 
-/* icone + */
-.accordion-button::after{
-  background-image:none;
-  content:"+";
-  font-size:20px;
-  font-weight:bold;
-}
-
-.accordion-button:not(.collapsed)::after{
-  content:"-";
-}
