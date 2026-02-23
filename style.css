@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-/* #header{
-    background-color: #008060;
-
-} */
-
-
 #logo img{
     width: 110px;
     height: 110px;
@@ -51,7 +45,7 @@
     border: none;
     font-size: 14px;
     font-weight: 500;
-    color: #dddedf;
+    color: #6B7177;
     border-radius: 3px;
     outline: none;
 }
@@ -76,7 +70,7 @@
     margin-top: 19px;
 }
 
- #header {
+#header {
     background-color: #008060;
     position: relative; 
     overflow: visible; 
@@ -111,7 +105,134 @@
     height: auto;
 }
 
+.tudo {
+    display: flex;
+    margin-left: 330px;
+    gap: 30px; 
+    padding: 80px; 
+    position: relative;
+    top: -90px;
 
+}
 
+.icones {
+    max-width: 200px;
+    align-items: center;
+}
 
+.icones svg {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-bottom: 16px;
+}
 
+.icones h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.icones p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #6B7177;
+}
+
+.linha{
+    border: none;
+    height: 1px;
+    background-color: #EBECEE;
+    width: 680px;
+    margin: 30px auto;
+    position: relative;
+    top: -100px;
+}
+
+.linha2{
+    border: none;
+    height: 1px;
+    background-color: #EBECEE;
+    width: 680px;
+    margin: 30px auto;
+    position: relative;
+    top: -100px;
+}
+
+ .logosPretas{
+    display: flex;
+    justify-content: center; 
+    gap: 26px; 
+    position: relative;
+    top: -100px;
+}
+
+.logosPretas img{
+    width: 60px;
+    height: 30px;
+}
+
+#fonte {
+    position: relative;
+    top: -65px;
+}
+
+#fonte h4 {
+    font-family:sans-serif;
+    text-align: center;
+    font-weight: 50;
+    color:black;
+    font-size: 17px;
+    margin-top: 19px;
+}
+
+#fonte p {
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    color:black;
+    font-size: 10px;
+    margin-top: 19px;
+}
+
+.fonte button {
+    padding: 12px 18px;  
+    border: none;
+    font-size: 12px;
+    background-color: #008060;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: -30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.accordion{
+  max-width:600px;
+  margin:auto;
+}
+
+.accordion-button{
+  font-size:14px;
+  padding:10px 14px;
+}
+
+.accordion-body{
+  font-size:13px;
+}
+
+/* icone + */
+.accordion-button::after{
+  background-image:none;
+  content:"+";
+  font-size:20px;
+  font-weight:bold;
+}
+
+.accordion-button:not(.collapsed)::after{
+  content:"-";
+}
